@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@900&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+.clear{
+    display: block;
+    content: '';
+    clear: both;
+}
+body{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: auto;
+    margin-top: 10px;
+    height: 60px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+nav .logo h2{
+    color:  #4aa3cc;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+nav .menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+nav .menu ul li a{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    color: #FFF;
+}
+nav .menu ul li a:hover{
+    color: #00e0d0;
+}
+
+/* slider area style start from here */
+.banner,
+.banner-item{
+    width: 100%;
+}
+.banner-item{
+    position: relative;
+}
+.banner-item .img{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+.banner-item .img img{
+    width: 100%;
+}
+.banner-item .text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banner-item .text h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #fff;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.banner-item .text hr{
+    width: 50px;
+    background-color: #00e0d0;
+}
+.banner-item .text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 8px;
+    display: block;
+}
+.banner-item .text .button{
+    padding-top: 50px;
+}
+.banner-item .text a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #00e0d0;
+    color: #00e0d0;
+}
+ /* full header area style finish here */
+ .story {
+     margin-top: 65px;
+     margin-bottom: 70px;
+ }
+ .story .logo img{
+    margin-right: 20px;
+}
+.story .text h2{
+    font-family: 'Playfair Display', serif;
+    FONT-weight: 900;
+    text-transform: uppercase;
+    color: #413d4b;
+    font-size: 22px;
+}
+.story .text p{
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700px;
+}
+.story .text a{
+    text-decoration: none;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    text-transform: uppercase;
+}
+/* story area design finish here */
+/* video section style start from here */
+.video {
+    width: 100%;
+    position: relative;
+}
+.video .img img{
+    width: 100%;
+}
+.video .model-area {
+    position: absolute;
+    top: 50%;
+    right:0;
+    left:0;
+}
+.video .model-area a {
+    font-size: 45px;
+    padding: 2px 15px;
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+.video .model-area h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 19px;
+}
+/* video area design finish here */
+/* expertise area design finish here */
+.expertise{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.expertise .exp-top {
+    margin-bottom: 35px;
+}
+.expertise .exp-top h2{
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 22px;
+    color: #413d4b;
+}
+.expertise .exp-top p{
+    color: #2f2d35;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.expertise .exp-top hr{
+    width: 55px;
+    border:  2px solid #c6c4c9;
+}
+.expertise #web {
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.expertise #branding {
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+.expertise #moblie {
+    border-bottom: 1px solid #ebebeb;
+}
+.expertise #search {
+    border-right: 1px solid #ebebeb;
+}
+.expertise #game{
+    border-right: 1px solid #ebebeb;
+}
+.expertise .text-center{
+    padding-top: 35px;
+}
+.expertise .text-center h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #413d4b;
+}
+.expertise .text-center h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 14px;
+}
+/* expertise area finish here */
+/* team area design start from here */
+.team{
+    background: url(img/bg-2.png);
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+.team .text{
+    padding-bottom: 25px;
+}
+.team .text h2{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+.team .text p{
+    color: #f9f9f9;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+.team .text hr{
+    width: 55px;
+    border:  2px solid #c6c4c9;
+}
+.team-member .card {
+    background: transparent;
+    border: 1px solid #7a768e;
+}
+.team-member .card .card-body h4{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.team-member .card .card-body h5{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.team .last-text{
+    margin-top: 70px;
+}
+.team .last-text h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color:#f3f3f3;
+}
+.team .last-text button{
+    background: transparent;
+    padding: 10px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 700px;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+}
+/* team area design finish here */
+/* work area design finish here */
+.work .top div , .work .bottom div{
+    width: 102.2%
+}
+.work .top div img , .work .bottom div img{
+    width: 100%;
+}
+.work .button a{
+ border: 2px solid #00e0d0;
+ background: transparent;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: #00e0d0;
+}
+ /* work area design finish here */
+/* testimonail area design start from here */
+.testimonail{
+    background: url(img/testimonlal.png);
+    background-size: cover;
+    position: relative;
+}
+#carousel{
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    left: 0;
+    z-index: 15;
+}
+.carousel-indicators img{
+    width: 50Px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.carousel-indicators .active {
+    width: 70px;
+    height: 70px
+}
+.testimonail .carousel-inner .carousel-item h1{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+.testimonail .carousel-inner .carousel-item p{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+.testimonail .carousel-inner .carousel-item h3{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.testimonail .carousel-inner .carousel-item h4{
+    color: #fff;
+}
+ /* company area design area start from here */
+.company .input input, .company .input textarea{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.company .input input[type=submit]{
+    width: 40%;
+    color: #00e0d0;
+    background: transparent;
+    border: 1px solid #00e0d0;
+}
+.company h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.company .left{
+    width: 45%;
+}
+.company .right{
+    width: 45%;
+}
+.company .left img{
+    display: block;
+    margin-bottom: 50px;
+}
+.company .right img{
+    display: block;
+    margin-bottom: 50px;
+}
+/* company area design finish here */
+/* footer area desing start from here */
+footer{
+    background: url(img/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer #logo h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #10d3cf;
+}
+footer #logo p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+footer #out h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+footer #out .location .h-item h5, footer #out .location a{
+    color: #fff;
+    font-size: 14px;
+}
+footer #out .contact h5{
+    font-size: 14px;
+    color: #fff;
+}
+footer #out .contact a{
+    color: #fff;
+}
+footer #stay h2{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+footer #stay .input input{
+    background: transparent;
+    border: 1px solid #9b94ad;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+footer #stay .input a{
+    background: #9b94ad;
+    padding: 15px;
+    margin-left: 5px;
+}
+footer #stay .social ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer #stay .social ul li{
+    display:  inline-block;
+}
+footer #stay .social ul li a{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 11px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.left ul li a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.left ul li:last-child{
+    padding-left: 275px;
+}
